@@ -1,0 +1,75 @@
+/***************************** My Own Frame Work *****************************/
+
+
+/* To Control The Padding ***********************************/
+
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* To Scroll Smoothly ***************************************/
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+/* To Make No Decorations To The Links ********************/
+
+a
+{
+    text-decoration: none;
+}
+
+
+/* To Make No Decorations To The Lists ********************/
+
+ul
+{
+    list-style: none;
+}
+
+
+/* To Make The All Content In The Middle Of The Screen  *******/
+/* And All The Media To Fit All Screen Sizes ****************/
+
+.container
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 768px) /* small Screen */
+{
+    .container
+    {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) /* medium Screen */
+{
+    .container
+    {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) /* large Screen */
+{
+    .container
+    {
+        width: 1170px;
+    }
+}
+
+/*for the alt text***************/
+img
+{
+    color: white;
+}
